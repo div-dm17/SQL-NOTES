@@ -1,4 +1,4 @@
- CREATE TABLE CATS (
+CREATE TABLE CATS (
     cat_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   NAME VARCHAR(30) NOT NULL, 
   BREED VARCHAR(30) NOT NULL,
@@ -19,12 +19,14 @@ VALUES ('Ringo', 'Tabby', 4),
        UPDATE cats SET BREED='British Sort Hair' WHERE NAME='Ringo';
        UPDATE cats SET AGE=12 WHERE BREED='Maine Coon';
        DELETE FROM cats WHERE name ='Egg';
-       
+       DELETE FROM cats WHERE AGE= 4;
+       DELETE FROM cats WHERE AGE=cat_id;
+       DELETE FROM cats;
        
        
        --RUN COMMAND--
        
-       SELECT * FROM cats WHERE AGE=4;
+SELECT * FROM cats WHERE AGE=4;
 SELECT * FROM cats WHERE NAME='EgG';
 SELECT cat_id FROM cats;
 SELECT  NAME ,BREED FROM cats;
@@ -33,11 +35,4 @@ SELECT cat_id, AGE FROM cats WHERE  AGE=cat_id;
 SELECT * FROM cats WHERE AGE=cat_id;
 SELECT cat_id AS id, NAME AS CATNAME FROM cats;
 SHOW COLUMNS FROM cats;
-
-
 SELECT * FROM cats;
-
-SELECT * FROM cats;
-SELECT NAME FROM cats;
-SELECT NAME,AGE FROM cats;
-SELECT BREED, AGE, NAME FROM cats;
