@@ -1,0 +1,18 @@
+EXCERCISE ON CRUD 2
+
+  change their size to large So that's where article equals polo shirt.
+
+SELECT all shirts but only print out Article & color.
+
+. Add a new shirt purple polo shirt , size M, lastworn 50 day ago.
+
+  Update all polo shirts change their size to L.
+  
+  Update the Shirts last worn 15 days ago.
+  
+  Update all white shirts change size to 'XS' & color to 'off white'
+  
+  Delete all old shirts last worn 200 days ago
+  
+  Delete all tank top.
+  
