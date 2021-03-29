@@ -1,0 +1,15 @@
+CREATE TABLE CATES
+(
+  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+  ,NAME VARCHAR(30) NOT NULL
+  ,BREED VARCHAR(30) NOT NULL
+  ,AGE INT
+  );
+  INSERT INTO CATES(NAME, BREED, AGE)
+VALUES ('Ringo', 'Tabby', 4),
+       ('Cindy', 'Maine Coon', 10),
+       ('Dumbledore', 'Maine Coon', 11),
+       ('Egg', 'Persian', 4),
+       ('Misty', 'Tabby', 13),
+       ('George Michael', 'Ragdoll', 9),
+       ('Jackson', 'Sphynx', 7);
