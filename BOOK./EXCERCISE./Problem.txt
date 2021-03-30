@@ -1,0 +1,23 @@
+STRING FUNCTION EXCERCISE
+
+Reverse and uppercase the following sentence
+    "Why does my cat look at me with such hatred?"
+    
+ I_LIKE_CATS
+ 
+ 
+ REPLACE spaces in titles wwith ->  
+ e.g
+  The->Namesake 
+  
+  
+  Full name of author in caps
+  
+  "TITLE" was released in "relased year" label blurb 
+  
+  Print book title and length of each title 
+  
+  3 COLUMNS 
+  SHORT TITLE - TITLE 10 WORD ...
+  AUTHOR - LNM , FNM
+  QUANTITY - STOCK , 'IN STOCK'
