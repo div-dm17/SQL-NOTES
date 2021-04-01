@@ -11,3 +11,9 @@ SELECT title, pages FROM books ORDER BY pages DESC LIMIT 1;
 SELECT  MAX(pages), author_fname, author_lname,MIN(released_year)FROM books 
 GROUP BY author_lname, author_fname ;
 SELECT author_fname, author_lname , released_year , title FROM books;
+
+--ADD SUM QUERY
+
+SELECT * FROM books;
+SELECT  SUM(pages) FROM books;
+SELECT released_year, SUM(pages) FROM books GROUP BY released_year; 
