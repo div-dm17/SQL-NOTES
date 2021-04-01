@@ -17,3 +17,6 @@ SELECT author_fname, author_lname , released_year , title FROM books;
 SELECT * FROM books;
 SELECT  SUM(pages) FROM books;
 SELECT released_year, SUM(pages) FROM books GROUP BY released_year; 
+
+
+ --ADD AVG QUERY
