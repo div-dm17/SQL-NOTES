@@ -1,7 +1,7 @@
 #STRING FUNCTION EXCERCISE
 
-Reverse and uppercase the following sentence
-    "Why does my cat look at me with such hatred?"
+## 1. Reverse and uppercase the following sentence
+   ### "Why does my cat look at me with such hatred?"
     
  I_LIKE_CATS
  
