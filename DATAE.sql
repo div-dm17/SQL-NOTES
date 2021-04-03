@@ -5,7 +5,5 @@ INSERT INTO PEOPLE (NAME, Bdate , Btime , BDT, SEX) VALUES ('DIVY',
                                                                                        
                                                                                        
                                                                                        
-                                                                                       
-                                                                                       
-                                                                                       
-                                                                                       
+                                                                                                  
+                                
