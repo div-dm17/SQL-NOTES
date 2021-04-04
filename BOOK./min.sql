@@ -20,3 +20,7 @@ SELECT released_year, SUM(pages) FROM books GROUP BY released_year;
 
 
  --ADD AVG QUERY
+
+SELECT * FROM books;
+SELECT AVG(released_year) FROM books;
+SELECT released_year, AVG(pages) FROM books GROUP BY released_year;
