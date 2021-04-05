@@ -20,3 +20,4 @@ SELECT -40<=0 AND 10>40;
 SELECT 54<=54 && 'A'='a';
 SELECT title,author_lname FROM books where  title LIKE "%novel" AND author_lname='eggers' AND released_year >2010;
 
+SELECT title,author_lname, released_year FROM books WHERE released_year>2010 || author_lname='eggers' || stock_quantity=100;
