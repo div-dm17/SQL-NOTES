@@ -24,3 +24,7 @@ CUSTOMERS
 JOIN 
 ORDERS
 ON CUSTOMERS.id = ORDERS.customer_id;
+
+
+
+
