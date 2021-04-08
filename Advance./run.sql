@@ -26,5 +26,7 @@ ORDERS
 ON CUSTOMERS.id = ORDERS.customer_id;
 
 
+-- LEFT JOIN
+
 
 
