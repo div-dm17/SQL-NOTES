@@ -2,7 +2,8 @@
 
  ##  -  Reverse and uppercase the following sentence
        
-       ### Why does my cat look at me with such hatred?"
+       ##  Why does my cat look at me with such hatred?"
+      
    
    ##  - What does the print?
    
