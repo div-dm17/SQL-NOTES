@@ -1,6 +1,4 @@
 
-
-
 SELECT REVERSE(UPPER('Why does my cat look at me with such hatred?'));
 SELECT REPLACE(title, ' ', '->') AS Title 
 FROM books;
