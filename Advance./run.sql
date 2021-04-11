@@ -28,5 +28,8 @@ ON CUSTOMERS.id = ORDERS.customer_id;
 
 -- LEFT JOIN
 
+SELECT * FROM customers
+LEFT JOIN orders
+    ON customers.id = orders.customer_id;
 
 
