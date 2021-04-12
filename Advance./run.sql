@@ -1,4 +1,6 @@
 
+
+
 SELECT * FROM ORDERS;
  SELECT * FROM ORDERS WHERE customer_id = (
    SELECT id FROM CUSTOMERS WHERE last_name = 'George');
