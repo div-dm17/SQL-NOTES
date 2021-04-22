@@ -41,3 +41,7 @@ FROM customers
 LEFT JOIN orders
     ON customers.id = orders.customer_id; 
 
+-- OUR FIRST RIGHT JOIN
+SELECT * FROM customers
+RIGHT JOIN orders
+    ON customers.id = orders.customer_id;
